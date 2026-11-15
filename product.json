@@ -1,0 +1,498 @@
+{
+ "product": {
+  "id": "RL-382602",
+  "name": "Flag Cashmere Crewneck Sweater",
+  "brand": "Ralph Lauren",
+  "styleNumber": "382602",
+  "retailerUrl": "https://www.ralphlauren.com/women-clothing-sweaters/flag-cashmere-crewneck-sweater/382602.html#lang=en_US&rootLevelCat=&br=t&q=americana%2Bflag%2Bsweater&start=1",
+  "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1414612_alternate10?$rl_4x5_pdp$",
+  "video": "https://dtcralphlauren.scene7.com/is/content/PoloGSI/s7-1414612_rlvideo?video_desktop",
+  "magazineCover": "https://store.ee72.com/cdn/shop/files/FALL2026PAIRINGS5.jpg?v=1786538002",
+  "magazineArticle": "https://ee72.com/made-in-the-90s-two-generations-of-supermodels-cover-72s-anniversary-issue/",
+  "intro": "An American-flag knit becomes a starting point for exploring heritage style, Black Ivy, collegiate dressing, coastal travel and the cultural stories that give clothing meaning.",
+  "evidenceNote": "Independent portfolio research prototype. Editorial relationships are not official Ralph Lauren collaborations or endorsements. Product-specific manufacturing and sustainability claims are shown only where evidence supports them.",
+  "heroImage": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1414612_alternate10?$rl_4x5_pdp$",
+  "storyImage": "https://media.cntraveler.com/photos/60512365e77f3d8c4d2e432b/master/w_1600%2Cc_limit/520409641",
+  "closingImage": "https://impact.morehouse.edu/assets/BwYjTOgpay/morehouse_lifestyle_cccc2831-4096x2731.jpg"
+ },
+ "featured": [
+  {
+   "id": "aes-americana",
+   "name": "Americana",
+   "subtitle": "Heritage, identity & American sportswear",
+   "desc": "A flag motif, classic denim, heritage outerwear and a distinctly American visual vocabulary.",
+   "url": "https://aesthetics.fandom.com/wiki/Americana",
+   "image": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1414612_alternate10?$rl_4x5_pdp$",
+   "tag": "HERITAGE STYLE",
+   "wikidata": ""
+  },
+  {
+   "id": "aes-black-ivy",
+   "name": "Black Ivy",
+   "subtitle": "Collegiate style through a Black cultural lens",
+   "desc": "Tailored separates, refined knitwear, loafers and the history of Black style in and around Ivy-influenced dress.",
+   "url": "https://aesthetics.fandom.com/wiki/Black_Ivy",
+   "image": "",
+   "tag": "CULTURAL STYLE",
+   "wikidata": ""
+  },
+  {
+   "id": "aes-coastal",
+   "name": "Coastal Style",
+   "subtitle": "Island dressing with polish",
+   "desc": "Relaxed linen, crisp shirting, natural textures and light layers for days by the water and cool evenings.",
+   "url": "https://aesthetics.fandom.com/wiki/Coastal_Style",
+   "image": "https://hips.hearstapps.com/toc.h-cdn.co/assets/16/26/4000x3000/sd-aspect-1467225844-oak-bluffs-marthas-vineyard.jpg?resize=1200%3A%2A",
+   "tag": "DESTINATION STYLE",
+   "wikidata": ""
+  },
+  {
+   "id": "aes-preppy",
+   "name": "Preppy",
+   "subtitle": "Classic collegiate codes",
+   "desc": "Oxford shirts, polished knitwear, tailored trousers and considered combinations that move between campus and everyday life.",
+   "url": "https://aesthetics.fandom.com/wiki/Preppy",
+   "image": "https://impact.morehouse.edu/assets/BwYjTOgpay/morehouse_lifestyle_cccc2831-4096x2731.jpg",
+   "tag": "COLLEGIATE",
+   "wikidata": ""
+  }
+ ],
+ "moreAesthetics": [
+  {
+   "id": "aes-nautical",
+   "name": "Nautical",
+   "desc": "Navy, cream, stripes, practical layers and timeless references to life around harbors and the coast.",
+   "url": "https://aesthetics.fandom.com/wiki/Nautical"
+  },
+  {
+   "id": "aes-utopian-scholastic",
+   "name": "Utopian Scholastic",
+   "desc": "A more imaginative take on academic dressing, blending collegiate references, books, libraries and polished layers.",
+   "url": "https://aesthetics.fandom.com/wiki/Utopian_Scholastic"
+  },
+  {
+   "id": "aes-black-dandyism",
+   "name": "Black Dandyism",
+   "desc": "A style tradition rooted in intentional dress, tailoring, personal expression and the cultural history of Black dandyism.",
+   "url": "https://aesthetics.fandom.com/wiki/Black_Dandyism"
+  },
+  {
+   "id": "aes-dark-nautical",
+   "name": "Dark Nautical",
+   "desc": "Deep navy, charcoal, maritime references and layered textures for a more dramatic coastal interpretation.",
+   "url": "https://aesthetics.fandom.com/wiki/Dark_Nautical"
+  },
+  {
+   "id": "aes-frasurbane",
+   "name": "Frasurbane",
+   "desc": "An understated, polished approach to everyday dressing, balancing classic pieces with relaxed modernity.",
+   "url": "https://aesthetics.fandom.com/wiki/Frasurbane"
+  },
+  {
+   "id": "aes-old-money",
+   "name": "Old Money",
+   "desc": "Understated classics, quality materials and restrained styling; an aesthetic reference rather than a claim about wealth or status.",
+   "url": "https://aesthetics.fandom.com/wiki/Old_Money"
+  },
+  {
+   "id": "aes-dark-academia",
+   "name": "Dark Academia",
+   "desc": "Layered knitwear, tailoring, dark neutrals and references to books, libraries and academic settings.",
+   "url": "https://www.wikidata.org/wiki/Q97452932"
+  },
+  {
+   "id": "aes-quiet-luxury",
+   "name": "Quiet Luxury",
+   "desc": "A restrained styling lens focused on proportion, material, construction and versatility rather than conspicuous branding.",
+   "url": "https://www.wikidata.org/wiki/Q123452708"
+  },
+  {
+   "id": "aes-american-frontier",
+   "name": "American Frontier",
+   "desc": "A historical style reference involving practical layers, rugged textures and American heritage imagery.",
+   "url": "https://www.wikidata.org/wiki/Q190267"
+  }
+ ],
+ "places": [
+  {
+   "id": "place-mv",
+   "name": "Martha's Vineyard",
+   "kind": "Island destination",
+   "desc": "A New England island setting for coastal dressing, summer travel and a distinctive African American cultural history.",
+   "url": "https://www.geonames.org/4943231/martha-s-vineyard-island.html",
+   "image": "https://hips.hearstapps.com/toc.h-cdn.co/assets/16/26/4000x3000/sd-aspect-1467225844-oak-bluffs-marthas-vineyard.jpg?resize=1200%3A%2A"
+  },
+  {
+   "id": "place-oak-bluffs",
+   "name": "Oak Bluffs",
+   "kind": "Town · Martha's Vineyard",
+   "desc": "Known for its harbor, Ocean Park and historic gingerbread cottages in the Campground.",
+   "url": "https://www.geonames.org/4946056/oak-bluffs.html",
+   "image": "https://media.cntraveler.com/photos/60512365e77f3d8c4d2e432b/master/w_1600%2Cc_limit/520409641"
+  },
+  {
+   "id": "place-morehouse",
+   "name": "Morehouse College",
+   "kind": "HBCU · Atlanta, Georgia",
+   "desc": "A historically Black men's college and a cultural reference point for collegiate-inspired styling.",
+   "url": "https://www.geonames.org/4210087/morehouse-college.html",
+   "image": "https://impact.morehouse.edu/assets/BwYjTOgpay/morehouse_lifestyle_cccc2831-4096x2731.jpg"
+  },
+  {
+   "id": "place-spelman",
+   "name": "Spelman College",
+   "kind": "HBCU · Atlanta, Georgia",
+   "desc": "A historically Black women's college and a cultural reference point for collegiate-inspired styling.",
+   "url": "https://www.geonames.org/4223903/spelman-college.html",
+   "image": "https://res.cloudinary.com/atlanta/images/v1707517413/newAtlanta.com/NP_3271-CR3_DxO_DeepPRIME/NP_3271-CR3_DxO_DeepPRIME.jpg?_i=AA"
+  }
+ ],
+ "events": [
+  {
+   "id": "event-mvaaff",
+   "name": "Martha's Vineyard African American Film Festival",
+   "kind": "Film & culture event",
+   "desc": "A cultural and travel context for planning an island visit and event-ready personal style.",
+   "url": "https://www.mvaaff.com/",
+   "image": ""
+  },
+  {
+   "id": "event-hbcu",
+   "name": "HBCU Homecoming",
+   "kind": "Campus & cultural tradition",
+   "desc": "A broad cultural occasion, not one single event. Style suggestions should respect the identity and traditions of each institution.",
+   "url": "https://www.wikidata.org/wiki/Q1620945",
+   "image": ""
+  },
+  {
+   "id": "event-screen-culture",
+   "name": "A Different World",
+   "kind": "Television · 1987–1993",
+   "desc": "A campus-centered sitcom and cultural reference for Whitley Gilbert-inspired collegiate styling. The character is not claimed to have worn this sweater.",
+   "url": "https://www.wikidata.org/wiki/Q1109026",
+   "image": "https://substackcdn.com/image/fetch/$s_!V0NA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b79ec92-5230-4808-aa38-e5f801abd726_700x556.jpeg"
+  }
+ ],
+ "muses": [
+  {
+   "id": "muse-whitley",
+   "name": "Whitley Gilbert",
+   "role": "Character · A Different World",
+   "desc": "A character-inspired styling study: polished collegiate separates, coordinated looks, statement accessories and confident personal presentation. This is an interpretation, not a claim that Whitley wore this sweater.",
+   "url": "https://www.theblkprspctv.com/p/finding-whitley-how-a-different-worlds",
+   "image": "https://substackcdn.com/image/fetch/$s_!V0NA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b79ec92-5230-4808-aa38-e5f801abd726_700x556.jpeg",
+   "urlLabel": "Read: Finding Whitley"
+  },
+  {
+   "id": "muse-paloma",
+   "name": "Paloma Elsesser",
+   "role": "72 Magazine · September 2026 cover",
+   "desc": "The 72 cover features Paloma Elsesser in an American-flag knit. It is a documented cultural/editorial parallel; the cover does not establish that the pictured garment is this exact Ralph Lauren style number.",
+   "url": "https://ee72.com/made-in-the-90s-two-generations-of-supermodels-cover-72s-anniversary-issue/",
+   "image": "https://store.ee72.com/cdn/shop/files/FALL2026PAIRINGS5.jpg?v=1786538002"
+  }
+ ],
+ "articles": [
+  {
+   "id": "M001",
+   "publisher": "InStyle",
+   "title": "",
+   "topic": "Fashion history",
+   "url": "https://www.instyle.com/american-flag-sweater-history-ralph-lauren-catwalk-book-11970661",
+   "image": ""
+  },
+  {
+   "id": "M002",
+   "publisher": "L'Officiel USA",
+   "title": "",
+   "topic": "Design heritage",
+   "url": "https://www.lofficielusa.com/fashion/the-history-behind-ralph-laurens-13-star-flag-sweater-fourth-of-july",
+   "image": ""
+  },
+  {
+   "id": "M003",
+   "publisher": "Who What Wear",
+   "title": "",
+   "topic": "Travel & style",
+   "url": "https://www.whowhatwear.com/living/travel/oak-bluffs-marthas-vineyard-ralph-lauren",
+   "image": "https://media.cntraveler.com/photos/60512365e77f3d8c4d2e432b/master/w_1600%2Cc_limit/520409641"
+  },
+  {
+   "id": "M021",
+   "publisher": "Town & Country",
+   "title": "",
+   "topic": "Oak Bluffs history",
+   "url": "https://www.townandcountrymag.com/society/tradition/a6668/oak-bluffs-african-american-community/",
+   "image": "https://hips.hearstapps.com/toc.h-cdn.co/assets/16/26/4000x3000/sd-aspect-1467225844-oak-bluffs-marthas-vineyard.jpg?resize=1200%3A%2A"
+  },
+  {
+   "id": "M020",
+   "publisher": "The Blk Prspctv",
+   "title": "Finding Whitley: How A Different World's Art History Major Shaped My Journey",
+   "topic": "Screen culture · Sep 11, 2024",
+   "url": "https://www.theblkprspctv.com/p/finding-whitley-how-a-different-worlds",
+   "image": "https://substackcdn.com/image/fetch/$s_!V0NA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b79ec92-5230-4808-aa38-e5f801abd726_700x556.jpeg"
+  },
+  {
+   "id": "M005",
+   "publisher": "72 Magazine",
+   "title": "Made in the 90s: two generations of supermodels cover 72's anniversary issue",
+   "topic": "Fashion & culture · Sep 2026",
+   "url": "https://ee72.com/made-in-the-90s-two-generations-of-supermodels-cover-72s-anniversary-issue/",
+   "image": "https://store.ee72.com/cdn/shop/files/FALL2026PAIRINGS5.jpg?v=1786538002"
+  },
+  {
+   "id": "M004",
+   "publisher": "WWD / Sourcing Journal",
+   "title": "",
+   "topic": "Industry context",
+   "url": "https://wwd.com/sourcing-journal/sj-denim/ralph-lauren-turned-nostalgia-into-momentum-denim-tartan-1238861615/",
+   "image": ""
+  }
+ ],
+ "media": [
+  {
+   "id": "PRODUCT-VIDEO",
+   "platform": "Ralph Lauren",
+   "title": "Flag Cashmere Crewneck product video",
+   "sourceUrl": "https://dtcralphlauren.scene7.com/is/content/PoloGSI/s7-1414612_rlvideo?video_desktop",
+   "embedUrl": "https://dtcralphlauren.scene7.com/is/content/PoloGSI/s7-1414612_rlvideo?video_desktop",
+   "type": "native",
+   "thumb": "https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1414612_alternate10?$rl_4x5_pdp$"
+  },
+  {
+   "id": "M007",
+   "platform": "YouTube",
+   "title": "Gotham Galleria — styling feature",
+   "sourceUrl": "https://youtu.be/zaxKtojB8ec",
+   "embedUrl": "https://www.youtube.com/embed/zaxKtojB8ec",
+   "type": "iframe",
+   "thumb": "https://img.youtube.com/vi/zaxKtojB8ec/hqdefault.jpg"
+  },
+  {
+   "id": "M008",
+   "platform": "YouTube",
+   "title": "Ralph Lauren — video feature",
+   "sourceUrl": "https://www.youtube.com/watch?v=UOT8CUBpERE",
+   "embedUrl": "https://www.youtube.com/embed/UOT8CUBpERE",
+   "type": "iframe",
+   "thumb": "https://img.youtube.com/vi/UOT8CUBpERE/hqdefault.jpg"
+  },
+  {
+   "id": "M009",
+   "platform": "Instagram",
+   "title": "@mrpolo_2024 — Instagram post",
+   "sourceUrl": "https://www.instagram.com/p/DfdUsIhHMe3/",
+   "embedUrl": "https://www.instagram.com/p/DfdUsIhHMe3/embed",
+   "type": "iframe"
+  },
+  {
+   "id": "M010",
+   "platform": "Instagram",
+   "title": "@pinnap_tokyo_1 — Instagram post",
+   "sourceUrl": "https://www.instagram.com/p/DBgXE3jhHwp/",
+   "embedUrl": "https://www.instagram.com/p/DBgXE3jhHwp/embed",
+   "type": "iframe"
+  },
+  {
+   "id": "M011",
+   "platform": "Instagram",
+   "title": "@hwilberg — Instagram post",
+   "sourceUrl": "https://www.instagram.com/p/Dbkq8foCyfW/",
+   "embedUrl": "https://www.instagram.com/p/Dbkq8foCyfW/embed",
+   "type": "iframe"
+  },
+  {
+   "id": "M012",
+   "platform": "Instagram",
+   "title": "@the_polo_edit — Instagram post",
+   "sourceUrl": "https://www.instagram.com/p/DfHPe2bxnvr/",
+   "embedUrl": "https://www.instagram.com/p/DfHPe2bxnvr/embed",
+   "type": "iframe"
+  },
+  {
+   "id": "M013",
+   "platform": "TikTok",
+   "title": "@ralphlauren — TikTok video",
+   "sourceUrl": "https://www.tiktok.com/@ralphlauren/video/7700477306778733838?lang=en",
+   "embedUrl": "https://www.tiktok.com/embed/v2/7700477306778733838",
+   "type": "iframe"
+  },
+  {
+   "id": "M014",
+   "platform": "TikTok",
+   "title": "@kroomember — TikTok video",
+   "sourceUrl": "https://www.tiktok.com/t/ZPLvbtgh1/",
+   "embedUrl": "https://www.tiktok.com/embed/v2/7530387110663179533",
+   "type": "iframe"
+  },
+  {
+   "id": "M015",
+   "platform": "TikTok",
+   "title": "@kroomember — TikTok video",
+   "sourceUrl": "https://www.tiktok.com/t/ZTPkpkjQL/",
+   "embedUrl": "https://www.tiktok.com/embed/v2/7538868680415808823",
+   "type": "iframe"
+  },
+  {
+   "id": "M016",
+   "platform": "TikTok",
+   "title": "@ginajuststyle — TikTok video",
+   "sourceUrl": "https://www.tiktok.com/t/ZPLvgSpmJ/",
+   "embedUrl": "https://www.tiktok.com/embed/v2/7391877531915390241",
+   "type": "iframe"
+  },
+  {
+   "id": "M017",
+   "platform": "TikTok",
+   "title": "@imanixnicole — TikTok video",
+   "sourceUrl": "https://www.tiktok.com/t/ZPLvgLpmn/",
+   "embedUrl": "https://www.tiktok.com/embed/v2/7656267702662679822",
+   "type": "iframe"
+  },
+  {
+   "id": "M018",
+   "platform": "TikTok",
+   "title": "@angelslife.png — TikTok video",
+   "sourceUrl": "https://www.tiktok.com/t/ZTPkpgGN5/",
+   "embedUrl": "https://www.tiktok.com/embed/v2/7687720274225106207",
+   "type": "iframe"
+  },
+  {
+   "id": "M019",
+   "platform": "TikTok",
+   "title": "@lvrzqrrl — TikTok video",
+   "sourceUrl": "https://www.tiktok.com/t/ZTPksL94Q/",
+   "embedUrl": "https://www.tiktok.com/embed/v2/7591108665197808927",
+   "type": "iframe"
+  }
+ ],
+ "transparency": [
+  {
+   "icon": "leaf",
+   "title": "Materials",
+   "status": "Pending verification",
+   "desc": "Cashmere is the material concept recorded for this style (Getty AAT). Fiber percentage, raw-material origin and farm source still need product-level evidence.",
+   "link": "https://vocab.getty.edu/aat/300403905",
+   "linkText": "Cashmere in Getty AAT"
+  },
+  {
+   "icon": "shield",
+   "title": "Certifications",
+   "status": "Not established",
+   "desc": "No product-specific certificate was found in the sources reviewed. That is not evidence that the product failed testing.",
+   "link": "https://www.oeko-tex.com/en/our-standards/our-standards-overview/",
+   "linkText": "Understand OEKO-TEX standards"
+  },
+  {
+   "icon": "factory",
+   "title": "Factory transparency",
+   "status": "Brand-level disclosure",
+   "desc": "Ralph Lauren publishes a factory list. It shows its disclosed network; it does not identify who made this sweater.",
+   "link": "https://corporate.ralphlauren.com/cs-factory-list.html",
+   "linkText": "View factory disclosure"
+  },
+  {
+   "icon": "globe",
+   "title": "Environmental impact",
+   "status": "Brand-level context",
+   "desc": "Corporate reports give brand-level context, not this sweater's footprint or factory performance.",
+   "link": "https://corporate.ralphlauren.com/citizenship-and-sustainability",
+   "linkText": "Corporate sustainability"
+  }
+ ],
+ "trace": [
+  {
+   "ok": true,
+   "label": "Product identity",
+   "note": "Style 382602 · listing linked"
+  },
+  {
+   "ok": false,
+   "label": "Material: cashmere (concept)",
+   "note": "Fiber composition pending verification"
+  },
+  {
+   "ok": false,
+   "label": "Origin",
+   "note": "Not established in product-level evidence"
+  },
+  {
+   "ok": false,
+   "label": "Manufacturing",
+   "note": "No product-to-factory link established"
+  },
+  {
+   "ok": false,
+   "label": "Certifications",
+   "note": "None established for this product"
+  },
+  {
+   "ok": true,
+   "label": "Factory disclosure",
+   "note": "Brand-level list published; not product-specific"
+  }
+ ],
+ "creators": [
+  {
+   "platform": "YouTube",
+   "handle": "@gothamgalleria",
+   "profile": "https://www.youtube.com/@gothamgalleria"
+  },
+  {
+   "platform": "YouTube",
+   "handle": "@RalphLauren",
+   "profile": "https://www.youtube.com/@RalphLauren"
+  },
+  {
+   "platform": "Instagram",
+   "handle": "@mrpolo_2024",
+   "profile": "https://www.instagram.com/mrpolo_2024/"
+  },
+  {
+   "platform": "Instagram",
+   "handle": "@pinnap_tokyo_1",
+   "profile": "https://www.instagram.com/pinnap_tokyo_1/"
+  },
+  {
+   "platform": "Instagram",
+   "handle": "@hwilberg",
+   "profile": "https://www.instagram.com/hwilberg/"
+  },
+  {
+   "platform": "Instagram",
+   "handle": "@the_polo_edit",
+   "profile": "https://www.instagram.com/the_polo_edit/"
+  },
+  {
+   "platform": "TikTok",
+   "handle": "@ralphlauren",
+   "profile": "https://www.tiktok.com/@ralphlauren?lang=en"
+  },
+  {
+   "platform": "TikTok",
+   "handle": "@kroomember",
+   "profile": "https://www.tiktok.com/@kroomember"
+  },
+  {
+   "platform": "TikTok",
+   "handle": "@ginajuststyle",
+   "profile": "https://www.tiktok.com/@ginajuststyle"
+  },
+  {
+   "platform": "TikTok",
+   "handle": "@imanixnicole",
+   "profile": "https://www.tiktok.com/@imanixnicole"
+  },
+  {
+   "platform": "TikTok",
+   "handle": "@angelslife.png",
+   "profile": "https://www.tiktok.com/@angelslife.png"
+  },
+  {
+   "platform": "TikTok",
+   "handle": "@lvrzqrrl",
+   "profile": "https://www.tiktok.com/@lvrzqrrl"
+  }
+ ]
+}

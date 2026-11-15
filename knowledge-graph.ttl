@@ -1,0 +1,134 @@
+@prefix schema: <https://schema.org/> .
+@prefix gs1: <https://ref.gs1.org/voc/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix geo: <https://www.geonames.org/> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix ex: <https://jazmeenstyle.github.io/RLproductpage/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vra: <http://purl.org/vra/> .
+
+# Independent portfolio knowledge graph for one product.
+# Editorial connections are modeled separately from verified product provenance.
+# No product-to-factory or product-to-person-wore-it claim is asserted.
+
+ex:RL-382602 a schema:Product, gs1:Clothing ;
+    schema:name "Flag Cashmere Crewneck Sweater"@en ;
+    schema:sku "382602" ;
+    schema:brand ex:RalphLauren ;
+    schema:url <https://www.ralphlauren.com/women-clothing-sweaters/flag-cashmere-crewneck-sweater/382602.html> ;
+    schema:image <https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1414612_alternate10?$rl_4x5_pdp$> ;
+    schema:category "Clothing" ;
+    schema:additionalProperty [
+      a schema:PropertyValue ;
+      schema:name "Product-specific composition verification" ;
+      schema:value "Pending source verification"
+    ], [
+      a schema:PropertyValue ;
+      schema:name "Product-specific manufacturing facility" ;
+      schema:value "Not established"
+    ] .
+
+ex:RalphLauren a schema:Brand ;
+    schema:name "Ralph Lauren" ;
+    schema:url <https://www.ralphlauren.com/> .
+
+ex:Cashmere a schema:Thing ;
+    schema:name "cashmere"@en ;
+    schema:sameAs <https://vocab.getty.edu/aat/300403905> .
+
+ex:GS1TextileMaterial a schema:DefinedTerm ;
+    schema:name "textileMaterial" ;
+    schema:url <https://ref.gs1.org/voc/textileMaterial> .
+
+ex:CashmereMaterialConcept schema:sameAs <https://vocab.getty.edu/aat/300403905> .
+ex:RL-382602 schema:additionalProperty ex:CashmereMaterialConcept .
+
+ex:MarthasVineyard a schema:Place ;
+    schema:name "Martha's Vineyard" ;
+    schema:sameAs <https://www.geonames.org/4943231/martha-s-vineyard-island.html> .
+
+ex:OakBluffs a schema:Place ;
+    schema:name "Oak Bluffs" ;
+    schema:containedInPlace ex:MarthasVineyard ;
+    schema:sameAs <https://www.geonames.org/4946056/oak-bluffs.html> .
+
+ex:MorehouseCollege a schema:CollegeOrUniversity ;
+    schema:name "Morehouse College" ;
+    schema:sameAs <https://www.geonames.org/4210087/morehouse-college.html> .
+
+ex:SpelmanCollege a schema:CollegeOrUniversity ;
+    schema:name "Spelman College" ;
+    schema:sameAs <https://www.geonames.org/4223903/spelman-college.html> .
+
+ex:WhitleyGilbert a schema:Thing ;
+    schema:name "Whitley Gilbert" ;
+    schema:sameAs <https://www.wikidata.org/wiki/Q55315851> ;
+    schema:description "Fictional character from A Different World; character-inspired styling reference." .
+
+ex:PalomaElsesser a schema:Person ;
+    schema:name "Paloma Elsesser" ;
+    schema:sameAs <https://www.wikidata.org/wiki/Q52707396> .
+
+ex:MVAfricanAmericanFilmFestival a schema:Event ;
+    schema:name "Martha's Vineyard African American Film Festival" ;
+    schema:sameAs <https://www.wikidata.org/wiki/Q125619521> .
+
+ex:DiscoveryPage a schema:WebPage ;
+    schema:name "Flag Cashmere Crewneck | World-Building & Style Discovery" ;
+    schema:url <https://jazmeenstyle.github.io/RLproductpage/> ;
+    schema:mainEntity ex:RL-382602 ;
+    schema:about ex:Cashmere, ex:MarthasVineyard, ex:OakBluffs,
+      ex:MorehouseCollege, ex:SpelmanCollege, ex:WhitleyGilbert,
+      ex:PalomaElsesser, ex:MVAfricanAmericanFilmFestival .
+
+# Editorial aesthetics are connected to the discovery page, not asserted as
+# controlled classifications or exclusive product attributes.
+ex:Americana schema:name "Americana" ; schema:sameAs <https://www.wikidata.org/wiki/Q467355> .
+ex:BlackIvy schema:name "Black Ivy" ; schema:sameAs <https://www.wikidata.org/wiki/Q4921061> .
+ex:Preppy schema:name "preppy" ; schema:sameAs <https://www.wikidata.org/wiki/Q1573001> .
+ex:UtopianScholastic schema:name "Utopian Scholastic" ; schema:sameAs <https://www.wikidata.org/wiki/Q137661927> .
+ex:DiscoveryPage schema:mentions ex:Americana, ex:BlackIvy, ex:Preppy, ex:UtopianScholastic .
+
+# VRA Core 4.0 RDF expression is used here for image/visual-resource description.
+# VRA Core distinguishes the visual work from the image that documents it.
+# Namespace and element set reference: https://www.loc.gov/standards/vracore/
+
+ex:ProductImage a vra:Image ;
+    vra:title "Ralph Lauren Flag Cashmere Crewneck product image" ;
+    vra:source <https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1414612_alternate10?$rl_4x5_pdp$> ;
+    vra:subject ex:RL-382602 ;
+    vra:description "Retailer-hosted product image used as a visual reference in this independent discovery prototype." .
+
+ex:MagazineCoverImage a vra:Image ;
+    vra:title "72 Magazine September 2026 cover featuring Paloma Elsesser" ;
+    vra:source <https://store.ee72.com/cdn/shop/files/FALL2026PAIRINGS5.jpg?v=1786538002> ;
+    vra:subject ex:PalomaElsesser ;
+    vra:description "Editorial cover image. It depicts an American-flag knit; the exact garment style number is not established." .
+
+# Additional editorial aesthetic concepts from the original URI research.
+ex:Americana a schema:DefinedTerm ; schema:name "Americana"@en ; schema:url <https://aesthetics.fandom.com/wiki/Americana> ; schema:sameAs <https://www.wikidata.org/wiki/Q467355> .
+ex:DiscoveryPage schema:mentions ex:Americana .
+ex:BlackIvy a schema:DefinedTerm ; schema:name "Black Ivy"@en ; schema:url <https://aesthetics.fandom.com/wiki/Black_Ivy> ; schema:sameAs <https://www.wikidata.org/wiki/Q4921061> .
+ex:DiscoveryPage schema:mentions ex:BlackIvy .
+ex:CoastalStyle a schema:DefinedTerm ; schema:name "Coastal Style"@en ; schema:url <https://aesthetics.fandom.com/wiki/Coastal_Style> .
+ex:DiscoveryPage schema:mentions ex:CoastalStyle .
+ex:Preppy a schema:DefinedTerm ; schema:name "Preppy"@en ; schema:url <https://aesthetics.fandom.com/wiki/Preppy> ; schema:sameAs <https://www.wikidata.org/wiki/Q1573001> .
+ex:DiscoveryPage schema:mentions ex:Preppy .
+ex:Nautical a schema:DefinedTerm ; schema:name "Nautical"@en ; schema:url <https://aesthetics.fandom.com/wiki/Nautical> .
+ex:DiscoveryPage schema:mentions ex:Nautical .
+ex:UtopianScholastic a schema:DefinedTerm ; schema:name "Utopian Scholastic"@en ; schema:url <https://aesthetics.fandom.com/wiki/Utopian_Scholastic> ; schema:sameAs <https://www.wikidata.org/wiki/Q137661927> .
+ex:DiscoveryPage schema:mentions ex:UtopianScholastic .
+ex:BlackDandyism a schema:DefinedTerm ; schema:name "Black Dandyism"@en ; schema:url <https://aesthetics.fandom.com/wiki/Black_Dandyism> ; schema:sameAs <https://www.wikidata.org/wiki/Q134324770> .
+ex:DiscoveryPage schema:mentions ex:BlackDandyism .
+ex:DarkNautical a schema:DefinedTerm ; schema:name "Dark Nautical"@en ; schema:url <https://aesthetics.fandom.com/wiki/Dark_Nautical> .
+ex:DiscoveryPage schema:mentions ex:DarkNautical .
+ex:Frasurbane a schema:DefinedTerm ; schema:name "Frasurbane"@en ; schema:url <https://aesthetics.fandom.com/wiki/Frasurbane> ; schema:sameAs <https://www.wikidata.org/wiki/Q141584789> .
+ex:DiscoveryPage schema:mentions ex:Frasurbane .
+ex:OldMoney a schema:DefinedTerm ; schema:name "Old Money"@en ; schema:url <https://aesthetics.fandom.com/wiki/Old_Money> ; schema:sameAs <https://www.wikidata.org/wiki/Q7085491> .
+ex:DiscoveryPage schema:mentions ex:OldMoney .
+ex:DarkAcademia a schema:DefinedTerm ; schema:name "Dark Academia"@en ; schema:url <https://www.wikidata.org/wiki/Q97452932> ; schema:sameAs <https://www.wikidata.org/wiki/Q97452932> .
+ex:DiscoveryPage schema:mentions ex:DarkAcademia .
+ex:QuietLuxury a schema:DefinedTerm ; schema:name "Quiet Luxury"@en ; schema:url <https://www.wikidata.org/wiki/Q123452708> ; schema:sameAs <https://www.wikidata.org/wiki/Q123452708> .
+ex:DiscoveryPage schema:mentions ex:QuietLuxury .
+ex:AmericanFrontier a schema:DefinedTerm ; schema:name "American Frontier"@en ; schema:url <https://www.wikidata.org/wiki/Q190267> ; schema:sameAs <https://www.wikidata.org/wiki/Q190267> .
+ex:DiscoveryPage schema:mentions ex:AmericanFrontier .
